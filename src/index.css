@@ -12,9 +12,9 @@
     --card-foreground: 220 13% 9%;
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 9%;
-    --primary: 221 83% 53%;
+    --primary: 214 100% 59%;     /* GDG Blue */
     --primary-foreground: 210 40% 98%;
-    --primary-glow: 221 83% 65%;
+    --primary-glow: 214 100% 69%;
     --secondary: 220 14% 96%;
     --secondary-foreground: 220 13% 9%;
     --muted: 220 14% 96%;
@@ -34,10 +34,10 @@
     --chart-5: 0 84% 60%;
 
     /* GDG Brand Colors */
-    --gdg-blue: 221 83% 53%;
-    --gdg-green: 142 76% 36%;
-    --gdg-yellow: 47 96% 53%;
-    --gdg-red: 0 84% 60%;
+    --gdg-blue: 214 100% 59%;    /* #4285F4 */
+    --gdg-red: 4 82% 57%;        /* #EA4335 */
+    --gdg-yellow: 45 97% 52%;    /* #FBBC05 */
+    --gdg-green: 142 69% 58%;    /* #34A853 */
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));

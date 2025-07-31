@@ -7,6 +7,12 @@ import { ThemeProvider } from "next-themes";
 import { AuthProvider } from "@/hooks/useAuth";
 import { AuthLayout } from "@/components/auth/AuthLayout";
 import Dashboard from "./pages/Dashboard";
+import Events from "./pages/Events";
+import Tasks from "./pages/Tasks";
+import Attendance from "./pages/Attendance";
+import Analytics from "./pages/Analytics";
+import Profile from "./pages/Profile";
+import Settings from "./pages/Settings";
 import AIChat from "./pages/AIChat";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -25,13 +31,13 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/auth" element={<AuthLayout />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/events" element={<Dashboard />} />
-              <Route path="/tasks" element={<Dashboard />} />
-              <Route path="/attendance" element={<Dashboard />} />
-              <Route path="/analytics" element={<Dashboard />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/tasks" element={<Tasks />} />
+              <Route path="/attendance" element={<Attendance />} />
+              <Route path="/analytics" element={<Analytics />} />
               <Route path="/ai-chat" element={<AIChat />} />
-              <Route path="/profile" element={<Dashboard />} />
-              <Route path="/settings" element={<Dashboard />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/settings" element={<Settings />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
