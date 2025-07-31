@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+#  GDG Campus Spark
 
-## Project info
+GDG Campus Spark is a modern web application built using cutting-edge technologies like **Vite**, **React**, **TypeScript**, **TailwindCSS**, **ShadCN UI**, and **Supabase**.
 
-**URL**: https://lovable.dev/projects/dac56248-4066-46ec-87d1-976aef792f0c
+---
 
-## How can I edit this code?
+## 📸 Preview
 
-There are several ways of editing your application.
+> Live Demo: [https://your-deployment-link.vercel.app](https://your-deployment-link.vercel.app)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dac56248-4066-46ec-87d1-976aef792f0c) and start prompting.
+## 🧰 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- ⚛️ **React 18**
+- ⚡ **Vite**
+- 💅 **TailwindCSS** + `tailwindcss-animate`
+- 🧱 **ShadCN UI** (Radix-based components)
+- 🧪 **TypeScript**
+- 🔐 **Supabase** (Authentication, Database)
+- 🔁 **TanStack React Query**
+- 📆 **date-fns**, **react-day-picker**
+- 🧰 **React Hook Form + Zod**
+- 📊 **Recharts**
+- 🌐 **React Router DOM**
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repo
+git clone https://github.com/your-username/gdg-campus-spark.git
 
-Follow these steps:
+cd gdg-campus-spark
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Deployment
+bash : npm run dev
+Runs the app locally on http://localhost:8080.
 
-# Step 3: Install the necessary dependencies.
-npm i
+##🏗️ Build for Production
+npm run build
+Creates an optimized production build in the /dist directory.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
+##🌲 Project Structure
+gdg-campus-spark/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # UI Components
+│   ├── pages/             # Page-level components
+│   ├── lib/               # Utility functions, Supabase client
+│   ├── styles/            # Tailwind & global styles
+│   └── main.tsx           # Entry point
+├── supabase/              # Supabase config
+├── index.html             # HTML template
+├── vite.config.ts         # Vite configuration
+├── tailwind.config.ts     # Tailwind configuration
+└── tsconfig.json          # TypeScript configuration
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+##📚 Scripts
+<img width="768" height="292" alt="image" src="https://github.com/user-attachments/assets/03b5b3e2-8b14-43fc-b016-9cbcdfd37de6" />
 
-**Use GitHub Codespaces**
+##👤 Author
+Gunn Malhotra
+Github: @gunn@2522
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+##🔒 License
+This project is open-source under the MIT License.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dac56248-4066-46ec-87d1-976aef792f0c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+##🌐 Deployment
+Deployed via Vercel. Push to the main branch triggers automatic deployment. 
