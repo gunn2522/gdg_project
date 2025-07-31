@@ -39,7 +39,7 @@ const mainItems = [
   { title: "Tasks", url: "/tasks", icon: CheckSquare },
   { title: "Attendance", url: "/attendance", icon: Users },
   { title: "Analytics", url: "/analytics", icon: BarChart3 },
-  { title: "AI Assistant", url: "/ai-assistant", icon: Bot },
+  { title: "AI Assistant", url: "/ai-chat", icon: Bot },
 ];
 
 const userItems = [

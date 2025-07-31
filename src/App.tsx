@@ -7,6 +7,7 @@ import { ThemeProvider } from "next-themes";
 import { AuthProvider } from "@/hooks/useAuth";
 import { AuthLayout } from "@/components/auth/AuthLayout";
 import Dashboard from "./pages/Dashboard";
+import AIChat from "./pages/AIChat";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -28,7 +29,7 @@ const App = () => (
               <Route path="/tasks" element={<Dashboard />} />
               <Route path="/attendance" element={<Dashboard />} />
               <Route path="/analytics" element={<Dashboard />} />
-              <Route path="/ai-assistant" element={<Dashboard />} />
+              <Route path="/ai-chat" element={<AIChat />} />
               <Route path="/profile" element={<Dashboard />} />
               <Route path="/settings" element={<Dashboard />} />
               <Route path="*" element={<NotFound />} />
